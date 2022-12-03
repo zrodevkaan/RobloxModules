@@ -1,6 +1,9 @@
 # RobloxModules
 
 How to use:
-> local Module = require(ModulePath)
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 ## May be useful in some terms
