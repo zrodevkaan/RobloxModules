@@ -1,9 +1,5 @@
-# RobloxModules
+# RobloxModules - Maybe useful
 
 How to use:
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
 
-## May be useful in some terms
+ - Using `require()` you can require a module.
