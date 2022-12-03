@@ -7,9 +7,7 @@ How to use:
 ## Example
 
 ```
-local Module = require(game:GetService("ReplicatedStorage").ModuleName)
+local Module = require(game:GetService("ReplicatedStorage").ModuleName) -- Grabbing the Module and getting whats inside of the script
 
-Module.CallMethod();
+Module.CallMethod(); -- basically calling a "Method" or "Function" inside the returned Module.
 ```
-
-##### If you don't know Lua. Learn it.
