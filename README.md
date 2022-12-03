@@ -7,7 +7,9 @@ How to use:
 ## Example
 
 ```
-local Module = require(game:GetService("ReplicatedStorage").ModuleName) -- Grabbing the Module and getting whats inside of the script
+ -- [[ Grabbing the Module and getting whats inside of the script ]] -- 
+local Module = require(game:GetService("ReplicatedStorage").ModuleName)
 
-Module.CallMethod(); -- basically calling a "Method" or "Function" inside the returned Module.
+ -- [[ Grabbing the Module and getting whats inside of the script ]] -- 
+Module.CallMethod(); 
 ```
