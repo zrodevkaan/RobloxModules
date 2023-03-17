@@ -1,5 +1,3 @@
-Sure, here's a markdown format for your GitHub project:
-
 LuaSnooper - Never Use print for Debugging Again
 ================================================
 
