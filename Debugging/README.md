@@ -1,3 +1,7 @@
+## NOTE
+This is still in dev.
+Roblox limits me from using any type of function debugging.
+
 
 Usage
 
@@ -57,11 +61,10 @@ local tracedFunction = LuaSnooper.Trace(myFunction) tracedFunction(5, 10)
   
 
 When you run this code, you should see output similar to the following:
-
   
 
-javascriptCopy code
-
-  
-
-```Function: myFunction Arguments: 5, 10 Exiting: myFunction Returned: 16 Variable 'myVar' changed to '16'```
+```lua
+Function: myFunction Arguments: 5, 10 
+Exiting: myFunction Returned: 16 
+Variable 'myVar' changed to '16'
+```
