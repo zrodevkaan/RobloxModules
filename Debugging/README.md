@@ -1,18 +1,4 @@
 
-LuaSnooper - Never Use print for Debugging Again
-
-================================================
-
-  
-
-LuaSnooper is a debugging tool for Roblox LuaU. It allows you to easily track changes to your Lua code by logging the values of local variables and any changes to them (returned).
-
-  
-
-You want to know which lines are running and which aren't, and what the values of the local variables are.
-
-  
-
 Usage
 
 -----
