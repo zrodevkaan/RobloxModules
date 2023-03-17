@@ -17,7 +17,10 @@ local LuaSnooper = require(game:GetService("ReplicatedStorage"):FindFirstChild("
 3. To use the `Trace` function to trace a specific function in your code, call `Trace` with the function as its argument. For example:
 
 ```lua
-function myFunction(arg1, arg2) --[[ Code! ]] end local tracedFunction = LuaSnooper.Trace(myFunction)
+function myFunction(arg1, arg2) 
+--[[ Code! ]] 
+end 
+local tracedFunction = LuaSnooper.Trace(myFunction)
 ```
 
 4. The `tracedFunction` variable now holds a new function that you can call instead of `myFunction`. When `tracedFunction` is called, it will print out information about the function call, including the values of any arguments and changes to local variables.
